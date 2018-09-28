@@ -1,0 +1,39 @@
+<!Doctype html>
+<html lang='en'>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="index.css">
+<script type="text/javascript" src="java.js">
+</script>
+<head>
+<title>Bootstrap used</title>
+<title>Form Example</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body id="body-style">
+<header style="font-size:30px; text-align:center;background-color:darkgreen;color:white;padding:70px">Hello Guys!! Please fill the details below for Income tax calculation</header>
+<div class="row">
+<div class="col-xs-3"> </div>
+<div class="col-xs-6" style="background-color:lightgreen; width:50;height:50;align:center;">
+<form id="form1">
+<p>Household Income<sup style="color:red">*</sup></p>
+<input type="text"  name="Income" title="Enter your income in dollars" value="4000" required><br>
+<p>Location<sup style="color:red">*</sup></p>
+<input type="text"  name="Location" title="Enter your location in USA" value="Maryville" required><br>
+<p> Filling Status </p>
+<select>
+<option value="MS-ACS">Single</option>
+<option value="MS-IS">Married</option>
+<option value="None">None</option>
+</select>
+<button type="button" name="Submit" onclick="IncomeTax()">Submit</button>
+<p id="demo"></p>
+</form>
+</div>
+<div class="col-xs-3"> </div>
+</div>
+</body>
+</html>
+
+
