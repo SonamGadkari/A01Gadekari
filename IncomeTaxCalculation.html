@@ -1,21 +1,24 @@
 <!Doctype html>
 <html lang='en'>
+<head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"  href="index.css">
-<script type="text/javascript" src="java.js">
-</script>
-<head>
-<title>Bootstrap used</title>
-<title>Form Example</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<title>Bootstrap used</title>
 </head>
 <body id="body-style">
-<header style="font-size:30px; text-align:center;background-color:darkgreen;color:white;padding:70px">Hello Guys!! Please fill the details below for Income tax calculation</header>
+<ul class="Navbar">
+  <li><a id="active" href="index.html">HOME</a></li>
+  <li><a href="IncomeTaxCalculation.html">YOURCHOICE</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+</ul>
+<br >
+<header>Please fill the details below for Income tax calculation</header><br>
 <div class="row">
 <div class="col-xs-3"> </div>
-<div class="col-xs-6" style="background-color:lightgreen; width:50;height:50;align:center;">
+<div class="col-xs-6 form-style">
 <form id="form1">
 <p>Household Income<sup style="color:red">*</sup></p>
 <input type="text"  name="Income" title="Enter your income in dollars" value="4000" required><br>
@@ -33,6 +36,8 @@
 </div>
 <div class="col-xs-3"> </div>
 </div>
+<script src="java.js">
+</script>
 </body>
 </html>
 

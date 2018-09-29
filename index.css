@@ -1,8 +1,20 @@
+body
+{
+background-image:url("transparent.png");
+}
+
+.img-prop
+{
+ width:10 ;
+ height:10 ;
+ text-align:"right";
+}
+
 .Navbar
 {
     padding: 20px;
     font-family:italic;
-	font-weight:bold;
+    font-weight:bold;
 }
 .Header
 {
@@ -20,6 +32,22 @@ font-family:italic;
 font-weight:bold;
 font-size:30px;
 } 
+
+.form-style
+{
+background-color:lightgreen;
+ width:50;
+ height:50;
+ align:center;	
+}
+
+.embd
+{
+width:350;
+height:300;
+align:right;
+ 
+}
 
 #body-style
 {
@@ -117,4 +145,3 @@ li a:hover:not(.active) {
 {
 	text-align:center;
 }
-	
